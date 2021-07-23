@@ -18,7 +18,7 @@ mysql -u root -p
 ```
 mysql> set password = 'password';
 ```
-- show databases를 입력해서 mysql에 존재하는 database목록을 확인할 수 있다. 
+- ```>show databases```를 입력해서 mysql에 존재하는 database목록을 확인할 수 있다. 
 
 ![image](https://user-images.githubusercontent.com/87008955/126748851-770c4a42-e60d-4d6e-9533-aff3ef70a059.png)
 
@@ -47,13 +47,13 @@ mysql> set password = 'password';
     - 3.*DROP TABLE*
     : 테이블 제거시 사용된다. 
     > ![image](https://user-images.githubusercontent.com/87008955/126750463-4ccedd7f-1f7a-4691-86f7-be187ea806c5.png)
-
+    출처: [DBMS](https://blog.naver.com/wltjdrmsdl/222379116092)
 ***
   - **DML(데이터 조작어)**
   :데이터의 검색, 삽입, 수정,삭제를 위해 사용한다. 
     - 1. *SELECT*   
-    ![image](https://user-images.githubusercontent.com/87008955/126750850-3e43fb6f-d256-4d27-be4a-801bfdc06baf.png)
-   
+    ![image](https://user-images.githubusercontent.com/87008955/126751811-f4092969-7aa0-4481-b1bf-7ed7ab8ecfec.png)
+    
     - 2. *INSERT*   
     ![image](https://user-images.githubusercontent.com/87008955/126750960-68d37d89-34d5-4380-ae85-00a4aeab895f.png)
    
