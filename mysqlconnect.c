@@ -13,12 +13,12 @@ int main(int argc, char **argv)
 
         conn = mysql_init(NULL);
 
-        if(!mysql_real_connect(conn, "127.0.0.1", "root", ".dlfndhs", NULL, 0, NULL, 0)){
+        if(!mysql_real_connect(conn, "localhost", "사용자", ".비밀번호", NULL, 0, NULL, 0)){
                 printf("cannot connect");
                 exit(1);
         }
         else{
-                if (mysql_select_db(conn, "ausf")){
+                if (mysql_select_db(conn, "데이터베이스명")){
                         printf("cannot use databases");
                         exit(1);
                 }
