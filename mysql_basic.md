@@ -52,8 +52,13 @@ mysql> set password = 'password';
   - **DML(데이터 조작어)**
   :데이터의 검색, 삽입, 수정,삭제를 위해 사용한다. 
     - 1. *SELECT*   
+    : 데이터 삽입   
     ![image](https://user-images.githubusercontent.com/87008955/126751811-f4092969-7aa0-4481-b1bf-7ed7ab8ecfec.png)
-    
+    - desc *테이블명*   
+    : 테이블 정보    
+    ![image](https://user-images.githubusercontent.com/87008955/126944335-d8b7be21-a46e-4211-81a1-fc499f24822b.png)
+
+
     - 2. *INSERT*   
     ![image](https://user-images.githubusercontent.com/87008955/126750960-68d37d89-34d5-4380-ae85-00a4aeab895f.png)
    
